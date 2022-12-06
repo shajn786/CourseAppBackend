@@ -6,9 +6,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CourseController {
 
-    @PostMapping("")
-    public String AddCourse()
-    {
-        return "course added successfully";
-    }
+
 }
